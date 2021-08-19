@@ -3,7 +3,7 @@ import {HttpClient} from "@angular/common/http";
 import {CartService} from "./cart.service";
 import {User} from "../models/user";
 import {Cart} from "../models/cart";
-import {environment} from "../../environments/environment";
+import {environment} from "../../environments/environment.prod";
 import { Result } from '../models/result';
 
 @Injectable({
